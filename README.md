@@ -48,5 +48,12 @@
 - No Azure já temos diverdas Policies pré-configuradas para utilizarmos, mas também podemos criar nossas próprias afim de atender melhor nosso negócio;
 - Quando aplicamos o Policy em ambientes que já tem recuros com regras diferentes dela, a Policy não altera e/ou exclui o recurso, mas informa em seus relatórios que temos uma situação de não compliance para o usuário tomar as ações que julgue necessário. Existe a opção de remediação, mas ela pode gerar problemas para aplicação, então deve ser usada em casos devidamente validadas;
 - As Policies podem ser ativadas ou não no momento da criação e também podemos fazer download para arquivamento e/ou configuração e reuso posterior.
+
+## Desafio "Ferramentas de Implantação na Azure"
   
-- 
+- Depois de adquirir familiaridade com os principais recursos do Azure, é importante entender a melhor indicação para lidar com os recursos, sobretudo quando falamos de maiores quantidade des ações. Portanto, apesar do Porta Azure ter tudo que precisamos e ser bem intuitivo, quando precisamos instalar/configurar diversos recursos outras opções pode ser melhores, como o CloudShell que se encontra junto à barra de pesquisa dentro do Portal Azure. No CloudShell podemos executar diversas ações por linha de comando, atingindo diversos recursos ao mesmo tempo;
+- Um ponto de importante é que o CloudShell vai pedir (se você não tiver) a criação de um Storage Account;
+- Outra vantagem do CloudShell é que nele podemos trabalhar tanto com PowerShell, como com Bash;
+- Mais uma vantagem é que em vários recursos, o Azure oferece opções para automação, onde inclusive podemos acessar, subir e baixar modelos de configuração e implatação, que são extremamente necessários quando tempos grande volumes de tarefas.
+- Também temos o Azure Arc, que é uma ferramenta fantástica para gerenciar recursos fora do Azure e nós permitir ter um controle centralizado do que temos no Azure junto com nossos recursos On Premise e junto com recursos de outras clouds.
+  
