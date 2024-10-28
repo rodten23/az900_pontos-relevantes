@@ -36,6 +36,17 @@
 - Ao criar grupos de recursos temos algumas opções e algumas bem importantes são: incluir as tags (marcas) para permitir melhor controle e rastreabilidade dos recursos e seus custos; e configurar o IAM (Contro de acesso) para definir quem pode acessar aquele grupo e seus recursos; e incluir as devidas regras de bloqueio;
 - Podemos fazer downloads de configurações de recursos criados, afim de guardar histórios, mas sobretudo para usarmos como templates para automações e implantações futuras.
 
+## Desafio "Configurando Recursos e Dimensionamentos em Máquinas Virtuais na Azure"
+
+- A Azure oferece a possibilidade de criar uma VM do zero, usar modelos pré-definidos e também outras soluções relacionadas, permitindo facilidade, personalização e velocidade na implantação deste recurso;
+- Uma VM sempre deverá estar relacionada a uma assinatura e a um grupo de recursos;
+- Além de VM individuais, também podemos criar conjuntos de dimensionamento de VMs, permitindo assim escalabilidade e elasticidade conforme a necessidade do nosso negócio;
+- Os modelos de VM são agrupados pro finalidades, facilitando a escolha conforme nossos requisitos e orçamento disponível;
+- Um detalhe importante é que a VM é um recurso separado dos seus discos (que são outros recursos), possibilitanto assim uso e custos diferentes conforme configuração de ambos. E ideal é ter a ativar a oção de excluir disco quando excluir a VM, assim evitamos "discos perdidos" que nos causariam um custo desnecessário na assinatura;
+- Uma importante medida de segurança é escolher bem quais portas estarão abertas e acessíveis para cada VM;
+- Podemos ativar se necessário desligamento automático, notificações sobre algumas situações e backup para VMs;
+- Além das VMs, temos também as Funções do Azure e as Áreas de Trabalho Virtuais, que tem usos mais específicos e nos trazem vantagens em alguns cenários e, portanto, devem também ser avaliadas durante definição da arquitetura de solução do nosso projeto.
+
 ## Desafio "Otimizando Custos no Azure"
 
 - Um dos profissionais mais buscados hoje para quem trabalha com cloud é quem entende de FinOps, isto porque o gerenciamento e melhorias nos custos de com recursos em nuvem é uma tarefa crucial para saúde e evolução das empresas que levaram seus recursos para cloud. E um ponto interessante na carreira de FinOps é que a pessoa não precisa ter conhecimento e ser da área de TI. Muito pelo contrário: profissionais mais voltados às áreas financeira e contábil podem tem grande ascenção neste cargo;
