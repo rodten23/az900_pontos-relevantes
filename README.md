@@ -27,6 +27,15 @@
 - Além disso, lembremos que o "Banco de Dados SQL" é só um dos muitos formatos de banco de dados que o Azure disponibiliza, devendo ser escolhido o que mais se adequa ao nosso projeto e custos pretendidos. Também podemos lembrar que podemos criar estes recursos como desenvolvimento ou produção, cada um trazendo custos, disponibilidade, etc, diferentes;
 - Uma sugestão dada pela instrutora Valéria Baptista e que eu também concordo é que, independente da área/cargo da pessoa que irá trabalhar com Azure, ideal é que esta mantenha algum nível de contato com o Portal Azure, pois apenas observar relatórios, planilhas, documentações, ou configurar por código via IDE, não trás ao (à) profissinal tudo aquilo que o Azure oferece, nem as opções e suas variações de configurações. Inclusive porque, de forma geral, as evoluções do Azure surgem primeiro no Portal Azure, então manter este contato direto também é uma forma da pessoal estar sempre atualizada e motivada a evoluir seus sistemas.
 
+## Desafio "Construindo Arquiteturas no Azure"
+
+- Um dos pontos importantes sobre as regiões do Azure é ficar atento a região onde serão implantados seus recursos e qual é a região par, afim de entender custos e tratativas de replicação e segurança;
+- Também tem devemos lembrar que alguns recursos não estão disponíveis em todas as regiões e que nem todas as regiões estão disponíveis ao público-geral;
+- Outro ponto a nível Brasil é que a LGPD exige que os dados das pessoas físicas devem ficar dentro do território nacional e, com isso, devemos sempre ter isto em mente ao escolher a região para implantar nossos recursos;
+- A Microsoft vem expandindo de forma bem rápida as nossas e regiões do Azure, por isso vale a pena observar de tempos em tempos as evoluções nos sites de infraestrutura e datacenters que a Microsoft disponibiliza;
+- Ao criar grupos de recursos temos algumas opções e algumas bem importantes são: incluir as tags (marcas) para permitir melhor controle e rastreabilidade dos recursos e seus custos; e configurar o IAM (Contro de acesso) para definir quem pode acessar aquele grupo e seus recursos; e incluir as devidas regras de bloqueio;
+- Podemos fazer downloads de configurações de recursos criados, afim de guardar histórios, mas sobretudo para usarmos como templates para automações e implantações futuras.
+
 ## Desafio "Otimizando Custos no Azure"
 
 - Um dos profissionais mais buscados hoje para quem trabalha com cloud é quem entende de FinOps, isto porque o gerenciamento e melhorias nos custos de com recursos em nuvem é uma tarefa crucial para saúde e evolução das empresas que levaram seus recursos para cloud. E um ponto interessante na carreira de FinOps é que a pessoa não precisa ter conhecimento e ser da área de TI. Muito pelo contrário: profissionais mais voltados às áreas financeira e contábil podem tem grande ascenção neste cargo;
