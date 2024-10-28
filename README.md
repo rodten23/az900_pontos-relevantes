@@ -56,4 +56,12 @@
 - Outra vantagem do CloudShell é que nele podemos trabalhar tanto com PowerShell, como com Bash;
 - Mais uma vantagem é que em vários recursos, o Azure oferece opções para automação, onde inclusive podemos acessar, subir e baixar modelos de configuração e implatação, que são extremamente necessários quando tempos grande volumes de tarefas.
 - Também temos o Azure Arc, que é uma ferramenta fantástica para gerenciar recursos fora do Azure e nós permitir ter um controle centralizado do que temos no Azure junto com nossos recursos On Premise e junto com recursos de outras clouds.
-  
+
+## Desafio"Monitoramento Inteligente com o Azure"
+
+- O Azure oferce diversas ferramentas e opções para fazermos o monitoramento de nossas aplicações e recursos, indo desde logs personalizados até criação de alertas;
+- Mas o monitoramento também depende muito da atuação do usuário, criando os alertas corretos, definindo métricas adequadas para o seu serviço e criando logs que permitam a rastreabilidade correta das informações. Assim com no quesito segurança, a Microsoft oferece todas as ferramentas necessárias, mas o uso correto e adequado é responsabilidade do cliente;
+- Também temos o Service Health, que nos permite ver a situação dos serviços no Azure em todo mundo, já que muitas vezes o problema é com o Azure e não com nossa aplicação em si;
+- Por fim, temos o Advisor, que trás nos trás diversas análises e recomendações, afim de garantir o melhor custo/benefício para os nossos recursos;
+- Monitoramento e observabilidade é uma área extremamente importante em qualquer aplicação e porte de empresa, e por isso mesmo não deve ser negligenciada. Neste sentido, o uso de recursos na cloud facilitam muito a nossa vida, mas depende da atuação das nossas equipes.
+    
