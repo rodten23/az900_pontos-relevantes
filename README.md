@@ -47,6 +47,14 @@
 - Podemos ativar se necessário desligamento automático, notificações sobre algumas situações e backup para VMs;
 - Além das VMs, temos também as Funções do Azure e as Áreas de Trabalho Virtuais, que tem usos mais específicos e nos trazem vantagens em alguns cenários e, portanto, devem também ser avaliadas durante definição da arquitetura de solução do nosso projeto.
 
+## Desafio "Dominando o Armazenamento na Azure"
+
+- O Azure oferece formatos de armazenamento de dados que atendem os mais diversos tipos de soluções, garantindo performance, segurança e custos adequados aos negócios;
+- Assim como para as VMs, as contas de armazenamento dispõe de diveras opções de configurações, além de permitir integrações de diveras formas;
+- Como os dados são o "novo petróleo", dois pontos de extrema importância para as contas de armazenamento são suas políticas de acesso e segurança e a configurações de redundância e backup;
+- Relativo a forma de acesso e custos, podemos manter nossos dados em 4 estados (cold a hot), sendo que quanto mais "quente", mais disponibilidade temos, mas mais caro fica este armazenamento;
+- Além de criar nossas contas de armazenamento, também dispomos de opções para migrações de grandes volumes de dados para o Azure, com métodos e valores diferentes.
+
 ## Desafio "Otimizando Custos no Azure"
 
 - Um dos profissionais mais buscados hoje para quem trabalha com cloud é quem entende de FinOps, isto porque o gerenciamento e melhorias nos custos de com recursos em nuvem é uma tarefa crucial para saúde e evolução das empresas que levaram seus recursos para cloud. E um ponto interessante na carreira de FinOps é que a pessoa não precisa ter conhecimento e ser da área de TI. Muito pelo contrário: profissionais mais voltados às áreas financeira e contábil podem tem grande ascenção neste cargo;
