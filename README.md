@@ -55,6 +55,13 @@
 - Relativo a forma de acesso e custos, podemos manter nossos dados em 4 estados (cold a hot), sendo que quanto mais "quente", mais disponibilidade temos, mas mais caro fica este armazenamento;
 - Além de criar nossas contas de armazenamento, também dispomos de opções para migrações de grandes volumes de dados para o Azure, com métodos e valores diferentes.
 
+## Desafio "Entendendo sobre Segurança e Identidade na Azure"
+
+- O Microsoft Entra ID (antigo Microsoft AD) é o gestor de usuários, identidades e permissionamento para o Azure;
+- As políticas de segurança de usuários é uma das primeiras coisas a ser pensada em qualquer projeto e deve ser muito bem definida, pois pode ocasionar mudança em toda a arquitetura daquela solução;
+- Da mesma forma, deve ser um dos primeiros temas a ser configurado no Azure no início do projeto, afim de garantir que desde o início os recursos e governaça serão preservados;
+- Já o Microsoft Defender for Cloud é nosso guardião dentro do Azure, o qual nos trás configurações de segurança, alertas, recomendações e pode atuar de forma multi-cloud. Também pode ser usado no DevOps, conectando-se com GitHub, Gitlab e outros, garantindo assim segurança em todo ciclo da aplicação.
+
 ## Desafio "Otimizando Custos no Azure"
 
 - Um dos profissionais mais buscados hoje para quem trabalha com cloud é quem entende de FinOps, isto porque o gerenciamento e melhorias nos custos de com recursos em nuvem é uma tarefa crucial para saúde e evolução das empresas que levaram seus recursos para cloud. E um ponto interessante na carreira de FinOps é que a pessoa não precisa ter conhecimento e ser da área de TI. Muito pelo contrário: profissionais mais voltados às áreas financeira e contábil podem tem grande ascenção neste cargo;
